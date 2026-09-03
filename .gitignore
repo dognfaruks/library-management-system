@@ -1,0 +1,22 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+## Test sonuçları
+[Tt]est[Rr]esult*/
+*.trx
+
+## Rider / VS
+.idea/
+*.DotSettings.user
+
+## appsettings için lokal override (varsa gizli kalsın)
+appsettings.Local.json
+appsettings.Development.local.json
+
+## OS dosyaları
+.DS_Store
+Thumbs.db
